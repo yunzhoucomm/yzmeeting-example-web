@@ -40,21 +40,23 @@ Chrome浏览器
       userId: 'xxxx', // 用户ID 必填
       userName: 'xxxxx', // 用户名称 必填
       avatar: 'xxxx', // 用户头像 可选
-    }
+    },
+    severUrl: '' // 会管服务地址 必填
   })
 ```
 ### 加入会议
 ```
   window.yunzhou.init({
-    entry: 'join', // 加入s会议
+    entry: 'join', // 加入会议
     user: {
       userId: 'xxxx', // 用户ID 必填
       userName: 'xxxxx', // 用户名称 必填
       avatar: 'xxxx', // 用户头像 可选
-    }
+    },
+    severUrl: '' // 会管服务地址 必填
   })
 ```
-将上述代码拷贝至<code>index.html</code>中，代码位置防止与页面尾部中
+将上述代码拷贝至<code>index.html</code>中，代码位置放置于页面尾部
 ### 示例代码
 
 ```
@@ -65,7 +67,8 @@ Chrome浏览器
       userId: '1000', // 用户ID 必填
       userName: '用户名称', // 用户名称 必填
       avatar: '头像地址', // 用户头像 可选 示例 https://xxxxxx
-    }
+    },
+    severUrl: '' // 会管服务地址 必填
   })
 </script>
 ```
