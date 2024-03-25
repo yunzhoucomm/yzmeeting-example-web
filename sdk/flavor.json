@@ -1,8 +1,8 @@
 {
   "title": "音视频会议",
   "schema": {
-    "ios": "minxing",
-    "android": "product",
-    "pc": "minxingv4"
+    "ios": "",
+    "android": "",
+    "pc": ""
   }
 }
